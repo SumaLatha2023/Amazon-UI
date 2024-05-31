@@ -1,4 +1,4 @@
-# Amazon Clone Project
+# Amazon UI Clone Project
 
 ## About The Project
 
