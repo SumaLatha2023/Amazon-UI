@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    background-color: #131921;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 110px;
+    height: 50px;
+}
+
+.logo{
+    background-image: url(assets/amazon_logo.png);
+    background-size: cover;
+    width: 110px;
+    height: 50px;
+}
+
+.border{
+    border-width: 1.5px;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.border:hover{
+    border-width: 1.5px;
+    border-color: white;
+    border-style: solid;
+}
+
+.loc-up{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.loc-down{
+    margin-left: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.loc-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border-width: 2px;
+    border-color: orange;
+    border-style: solid; 
+}
+
+.search-select{
+    background-color: #e6e6e6;
+    color: #0f1111;
+    width: 55px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    background-color: #febd69;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f1111;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 1.25rem;
+}
+
+.nav-language {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.nav-language p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-language i {
+    color: #cccccc;
+    font-size: small;
+}
+
+.acc-up{
+    font-size: 12px;
+}
+
+.acc-down{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.acc-icon{
+    display: flex;
+    align-items: center;
+}
+
+.acc-icon i{
+    color: #cccccc;
+    margin-left: 2px;
+    font-size: small;
+}
+
+.ord-up{
+    font-size: 12px;
+}
+
+.ord-down{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.nav-cart{
+    display: flex;
+    align-items: baseline;
+}
+.nav-cart p{
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.nav-cart i{
+    font-size: 25px;
+}
+
+.panel{
+    background-color:  #232f3e;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pan-all{
+    display: flex;
+}
+
+.pan-all i{
+    font-size: 16px;
+}
+
+.pan-all p{
+    margin-left: 4px;
+    font-weight: 600;
+}
+
+.pan-list p{
+    display: inline;
+    margin-left: 9px;
+}
+
+.pan-list{
+    width: 75%;
+}
+
+.pan-deals p{
+    font-weight: 600;
+}
+
+.hero-slider {
+    margin: 0;
+    padding: 0;
+}
+
+.slide-img {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 60%, transparent 100%);
+}
+
+.hero-slider i {
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    font-size: xx-large;
+}
+
+.slide-left {
+    left: 1%;
+}
+
+.slide-right {
+    right: 1%;
+}
+
+.hero-text{
+    position: absolute;
+    bottom: 30%;
+    left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.95);
+    height: 40px;
+    color: #0f1111;
+    font-size: 14px;
+    width: 95%;
+}
+
+.hero-text a{
+    color: #007185;
+}
+
+.hero-text a:hover{
+    color: rgb(232, 62, 0);
+    text-decoration: underline;
+    text-decoration-color: rgb(232, 62, 0);
+}
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, transparent, #e2e7e6, transparent);
+    margin-bottom: 10px;
+    row-gap: 20px;
+}
+
+.box{
+    width: 22%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    z-index: 5;
+}
+
+.hero-shop {
+    margin-top: -150px;
+}
+
+.box-img{
+    height: 310px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2{
+    color: #0f1111;
+}
+
+.box-content p{
+    color: #007185;
+    font-size: small;
+}
+
+.box-content p:hover{
+    color: rgb(232, 62, 0);
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.new-up{
+    font-size: small;
+    font-weight: 500;
+}
+
+.new-down{
+    font-size: 11px;
+}
+
+.new-down a{
+    color: #007185;
+}
+
+.new-down a:hover{
+    color: rgb(232, 62, 0);
+}
+
+.new-click{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+button{
+    background-color: rgb(246, 187, 40, 0.8);
+    padding: 5px 80px 5px 80px;
+    border: none;
+    border: 1px solid #f0af0b;
+    border-radius: 2px;
+}
+
+.panel1{
+    margin-top: 15px;
+    background-color: #37475A;
+    color: white;
+    height: 50px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel2{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 320px;
+    padding: 40px 0px 5px 0px;
+}
+
+ul a{
+    display: block;
+    font-size: 14px;
+    color: #dddddd;
+    margin-top: 10px;
+}
+
+.panel3{
+    background-color:  #232f3e;
+    color:  #dddddd;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 0.25px solid grey;
+    padding-bottom: 15px;
+}
+
+
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cccccc;
+    padding: 8px 8px 8px 8px;
+    border-radius: 2.5px;
+}
+
+.lang p{
+    margin-left: 6px;
+    margin-right: 12px;
+    font-size: smaller;
+}
+
+.small{
+    font-size: xx-small;
+}
+
+.panel4{
+    background-color: #131921;
+    color: white;
+    height: 80px;
+    font-size: smaller;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.pages{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.pages a{
+    margin-right: 10px;
+}
+
+.pages a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.copyright{
+    padding-bottom: 20px;
+}
